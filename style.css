@@ -1,0 +1,53 @@
+#intro{
+    display: flex;
+    background-image: url('./images/38829-4-540x540.jpg');
+    height: 100vh;
+    justify-content: center;
+    align-items:right;
+    flex-direction: column;
+    
+
+}
+#intro>div{
+    padding:5rem;
+    color: rgb(33, 22, 8);
+}
+.osho{
+    text-align: right;
+}
+.osho>*{
+    font-family: 'Caveat', cursive;
+    
+    
+    
+  /*  font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Libre Baskerville', serif;*/
+}
+/*.osho>h2{
+    font-family: 'Caveat', cursive;
+   
+
+}*/
+.ovalpicture{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+}
+#resume a{
+    color: white;
+}
+.projlist{
+  align-items: center;
+   justify-content: center;
+   
+}
+#portfolio h2{
+    text-align: center;;
+}
+#contacts img{
+    width:200px;
+
+}
+#contacts ul{
+    list-style: none;
+}
